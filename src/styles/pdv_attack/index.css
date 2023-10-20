@@ -1,0 +1,13 @@
+.pdvAttack,
+.pdv,
+.pointsDegats{
+    display: flex;
+  font-family: "MedievalSharp", cursive;
+
+    flex-direction: column;
+    height: 15px;
+}
+.pdv,
+.pointsDegats{
+    margin-left: 20px;
+}

@@ -1,3 +1,6 @@
 @import url("../styles/global/index.css");
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
-@import url("./Accueil/index.css");
+@import url("./titre_chapitre/index.css");
+@import url("./pdv_attack/index.css");
+@import url("./pseudo/index.css");
+@import url("./form_choix_pseudo/index.css");

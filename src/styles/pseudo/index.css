@@ -1,0 +1,9 @@
+.pseudo{
+    display: flex;
+}
+.pseudo h2{
+  font-family: "MedievalSharp", cursive;
+
+    display: flex;
+    transition: 2s;
+}

@@ -1,6 +1,6 @@
 const titres = {
-  principal: "Jeu de rôle.",
-  chap1: "Test1",
-  chap2: "Test2",
+  principal: "Jeu de rôle",
+  chap1: "Chapitre 1",
+  chap2: "Chapitre 2",
 };
 export { titres };

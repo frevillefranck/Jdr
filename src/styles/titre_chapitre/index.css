@@ -1,4 +1,6 @@
 .titre {
+  display: flex;
+  justify-content: center;
   font-family: "MedievalSharp", cursive;
   font-size: 40px;
 }

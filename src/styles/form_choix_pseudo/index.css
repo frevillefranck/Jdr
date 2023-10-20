@@ -1,0 +1,20 @@
+.formChoixPseudo{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.formChoixPseudo label{
+  font-family: "MedievalSharp", cursive;
+  font-weight: bold;
+    font-size: 30px;
+}
+.formChoixPseudo input{
+    width: 100%;
+  font-family: "MedievalSharp", cursive;
+    height: 5vh;
+    background-color:rgb(240, 255, 255, 0);
+    border-radius: 20px;
+    font-size: 30px;
+
+    border: 2px solid black;
+}
