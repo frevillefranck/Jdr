@@ -5,3 +5,6 @@
 @import url("./pseudo/index.css");
 @import url("./form_choix_pseudo/index.css");
 @import url("./prologue/index.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
