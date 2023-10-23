@@ -1,13 +1,13 @@
-import React from 'react';
-import "../styles/index.css"
-import { titres } from '../content';
+import React from "react";
+import "../styles/index.css";
+import { titres } from "../content";
+
 const Titre_Chapitre = () => {
-    return (
-        <div>
+  return (
+    <div>
       <h2 className="titre">{titres.principal}</h2>
-            
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Titre_Chapitre;
