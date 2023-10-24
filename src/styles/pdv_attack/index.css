@@ -1,13 +1,26 @@
 .pdvAttack,
 .pdv,
-.pointsDegats{
-    display: flex;
+.pointsDegats {
+  display: flex;
   font-family: "MedievalSharp", cursive;
-
-    flex-direction: column;
-    height: 15px;
+  flex-direction: column;
+  height: 15px;
+  animation: slide-in-elliptic-left-bck 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    2s both;
+}
+@keyframes slide-in-elliptic-left-bck {
+  0% {
+    transform: translateX(-800px) rotateY(-30deg) scale(6.5);
+    transform-origin: 200% 50%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotateY(0) scale(1);
+    transform-origin: -600px 50%;
+    opacity: 1;
+  }
 }
 .pdv,
-.pointsDegats{
-    margin-left: 20px;
+.pointsDegats {
+  margin-left: 20px;
 }

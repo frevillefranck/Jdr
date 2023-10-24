@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { prologue } from "../content";
-import Choix1 from "./Choix1";
-import Choix2 from "./Choix2";
+
+import PremierChoix from "./PremierChoix";
 const Prologue = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [isVisible2, setIsVisible2] = useState(false);
-  const [choix1IsVisible, setChoix1IsVisible] = useState(false);
-  const [choix2IsVisible, setChoix2IsVisible] = useState(false);
-
+  const [premierChoixIsVisible, setPremierChoixIsVisible] = useState(false);
   const [boutonSuivantVisible, setBoutonSuivantVisible] = useState(true);
   const clickBoutonSuivant = () => {
     if (isVisible) {
@@ -17,8 +15,7 @@ const Prologue = () => {
       setIsVisible(false);
       setIsVisible2(false);
       setBoutonSuivantVisible(false);
-      setChoix1IsVisible(true);
-      setChoix2IsVisible(true);
+      setPremierChoixIsVisible(true);
     }
   };
   return (
@@ -32,8 +29,7 @@ const Prologue = () => {
           </button>
         ) : null}
       </div>
-      {choix1IsVisible ? <Choix1 /> : null}
-      {choix2IsVisible ? <Choix2 /> : null}
+      {premierChoixIsVisible ? <PremierChoix /> : null}
     </div>
   );
 };

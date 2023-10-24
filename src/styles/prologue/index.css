@@ -6,6 +6,15 @@
   margin-top: 20vh;
   font-family: "MedievalSharp", cursive;
   font-size: 30px;
+  animation: fade 2s ease-in-out;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 .prologue p {
   display: flex;
@@ -13,6 +22,7 @@
   transition: 2s;
   margin-left: 10vw;
   margin-right: 10vw;
+  animation: fade 2s ease-in-out;
 }
 .boutonSuivant {
   display: flex;
@@ -24,4 +34,7 @@
   border-radius: 20px;
   cursor: pointer;
   width: 20vh;
+}
+.premierChoix {
+  display: flex;
 }

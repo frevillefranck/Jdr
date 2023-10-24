@@ -1,6 +1,20 @@
 .formChoixPseudo {
   display: flex;
   justify-content: center;
+  animation: slide-in-elliptic-right-bck 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    2s both;
+}
+@keyframes slide-in-elliptic-right-bck {
+  0% {
+    transform: translateX(800px) rotateY(30deg) scale(6.5);
+    transform-origin: -100% 50%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotateY(0) scale(1);
+    transform-origin: 600px 50%;
+    opacity: 1;
+  }
 }
 .formChoixPseudo form {
   flex-direction: column;
@@ -25,7 +39,8 @@
   font-size: 32px;
   left: 0;
   margin-left: 3vh;
-  top: 6vh;
+  top: 0;
+  animation: fade 2s ease-in-out;
 }
 .boutonValiderPseudo {
   display: flex;
@@ -40,4 +55,5 @@
   width: 100%;
   height: 8vh;
   cursor: pointer;
+  animation: fade 1s ease-in-out;
 }
